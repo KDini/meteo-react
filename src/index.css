@@ -8,6 +8,7 @@ body {
   font-family: 'montseratt', sans-serif;
 }
 
+/*
 .app {
   background-image: url('./assets/winter-bg.jpg');
   background-size: cover;
@@ -18,7 +19,7 @@ body {
 .app.warm {
   background-image: url('./assets/warm-bg.jpg');
 }
-
+*/
 main {
   min-height: 100vh;
   background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.75));
@@ -100,4 +101,15 @@ main {
   font-size: 48px;
   font-weight: 700;
   text-shadow: 3px 3px rgba(50,50,70,0.5);
+}
+
+#bg-video {
+  height: 100%;
+  width: 100%;
+  float: left;
+  top: 0;
+  padding: none;
+  position: absolute; 
+  object-fit: cover;
+  z-index: -1;
 }

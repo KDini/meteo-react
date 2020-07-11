@@ -1,5 +1,6 @@
-![](./public/video.mp4)
+![](./public/screen.png)
 
+Vidéo interactive en background selon la météo.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

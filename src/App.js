@@ -5,12 +5,9 @@ import Couvert from './assets/couvert.mp4';
 import Degage from './assets/degage.mp4';
 import Nuageux from './assets/nuageux.mp4';
 import Pluie from './assets/pluie.mp4';
+import API from './OpenWeatherMap'
 
-
-const api = {
-  key: "2260379db315c42bc487ba3766872edc",
-  base: "https://api.openweathermap.org/data/2.5/"
-}
+const api = API;
 
 function App() {
   const [query, setQuery] = useState('');
